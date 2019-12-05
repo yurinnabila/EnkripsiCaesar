@@ -1,4 +1,5 @@
 <?php
+	//enkripsi
 	$kalimat = $_GET["kata"];
 	$key = $_GET["key"];
 		for ($i=0; $i<strlen($kalimat);$i++) { 
